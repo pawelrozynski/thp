@@ -29,3 +29,7 @@ Route::get('/projects-active', 'ProjectsController@active');
 Route::get('/projects-closed', 'ProjectsController@closed');
 
 Route::post('/projectcomments', 'ProjectCommentsController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -4,6 +4,11 @@
           <a class="p-2 text-muted" href="/projects">Projekty</a>
           <a class="p-2 text-muted" href="/projects/create">Nowy projekt</a>
           <a class="p-2 text-muted" href="#">Dokumentacja</a>
+          <a class="p-2 text-muted" href="/logout">Wyloguj</a>
+          @auth 
+          <p>Zalogowany</p>
+          @endauth
+          
         </nav>
       </div>
 
